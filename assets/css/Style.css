@@ -1,0 +1,203 @@
+
+
+*{
+    transition: all 0.5s ease;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.font-title {
+    font-family: "Oswald", sans-serif;
+}
+.container {
+    padding: 15px 0px 15px 0px;
+}
+section {
+    padding: 80px 0px;
+}
+/* header css */
+.navbar {
+    background-color: #312f30;
+}
+.nav-item a {
+    color: #f0eeef !important;
+    font-size: 20px;
+}
+.navbar-nav li.nav-item {
+    padding-left: 25px;
+}
+.logo {
+    width: 105px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+    width: 1.8em;
+    height: 1.8em;
+}
+button:focus:not(:focus-visible) {
+    outline: unset;
+    color: transparent;
+}
+.navbar-nav a:hover {
+    color: #acb0b0 !important;
+}
+@media only screen and (max-width: 992px){
+  .container {
+    padding: 15px 20px 15px 20px;
+}
+.logo {
+    width: 85px;
+}
+.navbar-nav li.nav-item {
+    padding-left: 0px;
+}
+ul.navbar-nav {
+    text-align: center;
+    padding-top: 30px;
+}
+.copy_right p {
+    font-size: 16px !important;
+}
+.goalsstrategy img {
+    width: 100% !important;
+}
+}
+@media only screen and (max-width: 767px){
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .goalsstrategy img {
+        margin-bottom: 20px;
+    }
+    .letscreate p{
+        width: 100% !important;
+    }
+    .testimonial, .goalsstrategy{
+        padding: 0px !important;
+    }
+    .testimonial .row .col-md-6:nth-child(2) {
+        margin-top: 50px; /* Adjust the value as needed */
+    }    
+}
+/* end header css */
+
+/* footer css */
+footer i {
+    color: #acb0b0;
+} 
+ footer i:hover {
+    color: #ffffff;
+}
+.copy_right a:hover {
+    color: #ffffff !important;
+}
+footer section {
+    padding: 50px 0px;
+}
+/* end footer css */
+/* Hero Section */
+section.hero {
+    background-image: url(/option2/assets/images/overlay.png);
+      height: 650px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 0px !important;
+  }
+  section.hero .container {
+      width: 650px;
+  }
+/* Bussiness Section */
+.business-section {
+    text-align: center;
+    padding: 20px;
+}
+.business-section img {
+    width: 72px;
+    margin-bottom: 15px;
+}
+.business-section h3 {
+    margin-bottom: 15px;
+}
+.business-section p {
+    font-size: 14px;
+}
+/*  */
+.goalsstrategy img {
+    width: 80%;
+}
+/*  */
+.letscreate {
+    background-image: url("/option2/assets/images/letscreate.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    }
+/*  */
+.letscreate a.btn {
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 7px 30px;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+/* createplan */
+.createplan img {
+    width: 59px;
+    margin-bottom: 10px;
+}
+.createplan .customp {
+    color: #8a6b52;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* letsbring */
+.letsbring {
+    background-image: url("/option2/assets/images/letsbring.png");
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    padding: 0px !important;
+    }
+    .letsbring a.btn {
+        border: 2px solid white;
+        text-transform: uppercase;
+        padding: 8px 36px;
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+/*  */
+.testimonialperson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.testimonialperson h5{
+    font-weight: 600;
+}
+p.review {
+  position: relative;
+  padding-left:10px;
+  margin-bottom: 40px;
+}
+.testimonial .review::before {
+    content: "";
+    background-image: url(/option2/assets/images/quotation.png);
+    height: 39px;
+    width: 55px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: -15px;
+    left:1px;
+    position: absolute;
+    opacity: 0.3;
+}
+/*  */
+.shadowtext{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
